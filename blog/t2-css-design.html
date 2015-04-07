@@ -19,21 +19,29 @@
 
 <main>
   <h1>Yousuf's Technical Blog</h1>
-  <h2>Version Control, git, and GitHub</h2>
-  <h4>3/22/15</h4>
+  <h2>Margin, Border, and Padding in HTML/CSS</h2>
+  <h4>3/30/15</h4>
 
   <section>
     <p>
-      Git is a type of version control software that allows users to track the changes they’ve made on a project. As an analogy, let’s say I’ve drawn a rough pencil sketch of Superman, but I’m not sure how I want the finished piece to look. Is Supes fighting a Lex Luthor or is he hanging out with Lois Lane? Is he in Metropolis or outer space? I don’t want to continue drawing over my only copy of the sketch, so I make copies. If I ever need to go back, I have that option available to me. This is version control. Now I can start filling in details, like the Metropolis skyline in the background. I can continually copy my progress so that I have something to go back to in case I mess up or something doesn’t feel right. If I want to branch out in a different direction, I can go back to my initial copy.
+      The elegant simplicity of HTML is that everything is a box. Every element, every paragraph, every div and span is interpretted and rendered as a simple box. The benefit of this fact is that when laying out a webpage, thinking of each element in terms of its inherent boxiness makes things infinitely easier.
     </p>
     
     <p>
-      This is the capability that git offers to developers. An important point to note is that git’s version control occurs locally on one’s computer. GitHub allows users to upload a project remotely, and collaborate by accessing the master file, making changes on their own, and when ready, pushing those changes back to the master file.
+      We can conceive of a webpage as a collection of boxes arranged together in interesting ways. In order to position our boxes to our liking, we must understand how to space them in reference to each other. Each element has padding, borders, and margins whose values can be customized.
     </p>
     
     <p>
-      This seems like a great way for developers to collaborate. Developer A can work on his part of the code without having to worry about overwriting Developer B’s portion, and if anything suddenly goes wrong, there’s a history of all the changes that have been made, so the error can be easily determined.
+      <img src="../imgs/box-model.gif">
     </p>
+
+    <p>As this diagram shows, our element's content is the central box. On top of the content is its padding, which can be changed to increase or decrease the space between the element and an adjacent element.</p>
+
+    <p>Above the padding is the border, which is typically solid and 1 or 2 pixels, but can be even greater depending on ones needs.</p>
+
+    <p>The space around the border is the margin, which separates the element from other elements</p>
+
+    <p>By understanding these concepts, spacing elements on a webpage becomes a breeze!</p>
   </section>
 </main>
 
