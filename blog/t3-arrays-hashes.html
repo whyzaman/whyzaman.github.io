@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <title>Baller Time</title>
+</head>
+
+<body>
+  
+  <div id="navbar">
+    <div class="navbutton"><a href="#">ABOUT</a></div>
+    <div class="navbutton"><a href="blog.html">BLOG</a></div>
+    <div class="navbutton"><a href="#">PORTFOLIO</a></div>
+    <div class="navbutton"><a href="#">CONTACT</a></div>
+  </div>
+
+  <div id="content">
+
+<main>
+  <h1>Yousuf's Technical Blog</h1>
+  <h2>Arrays and Hashes</h2>
+  <h4>4/3/15</h4>
+
+  <section>
+    <p>
+      If you have data that needs to be grouped together, the best way to do so is with
+      arrays and hashes. An array can be created by simply inputting your data into square
+      brackets, for example:
+    </p>
+    <p>
+      array_one = [1, 2, 3, 4, 5]<br>
+      => [1, 2, 3, 4, 5]
+    </p>
+
+    <p>
+      The data that you input to an array isn't restricted to just integers; you can use any kind of object including strings, variables, or even another array. Here's an example of a valid array that uses different kinds of objects as input:
+    </p>
+
+    <p>
+      var = "This is a string."<br>
+      array_two = [35, "leprechaun", [var, 72]]<br>
+      => [35, "leprechaun", ["This is a string.", 72]]
+    </p>
+
+    <p>
+      The array returns the value of the variable rather than the variable itself because a variable isn't an object, it only points to an object. Now, if an array only accepts objects as its terms, and it accepts other arrays as terms, you may be wondering if arrays are also objects. 
+    </p>
+
+    <p>
+      The answer is yes, they are! And just like other objects, they have methods that can be called to them. Here's an example of a few array methods:
+    </p>
+
+    <p>
+      array_one.length
+      => 5
+    </p>
+    <p>
+      array_one[0]
+      => 1
+    </p>
+    <p>
+      array_one[1]
+      => 2
+    </p>
+
+    <p>
+      array_two.length
+      => 3
+    </p>
+
+    <p>
+      array_two[0]
+      => 35
+    </p>
+
+    <p>
+      array_two[1]
+      => "leprechaun"
+    </p>
+
+    <p>
+      array_two[2]
+      => ["This is a string.", 72]
+
+    </p>
+
+    <p>
+      You can see that we can call upon our data within the array by referring to their place, or index. The index always starts at 0. If we want to assign the values in our array a keyword with which to call them, we would use a hash.
+    </p>
+    <p>
+      grades = { "Jane Doe" => 10, "Jim Doe" => 6 }
+    </p>
+    <p>
+      grades["Jane Doe"]
+      => 10
+    </p>
+    
+    <p>
+      grades["Jim Doe"]
+      => 6
+    </p>
+
+    <h4>
+      Resources:       
+    </h4>
+
+    <p>
+      <a href="http://ruby-doc.org/core-2.0.0/Array.html">Ruby Doc Array</a>
+    </p>
+    <p>
+      <a href="http://ruby-doc.org/core-2.0.0/Hash.html">Ruby Doc Hash</a>
+    </p>
+
+  </section>
+</main>
+
+
+  </div>
+  <div id="hrule"></div>
+  <div id="footer">
+    <a href="http://www.twitter.com/whyzaman"><img src="../imgs/twitter-logo.png", width="75px"></a>
+
+    <a href="https://github.com/whyzaman"><img src="../imgs/github-logo.png", width="75px"></a>
+
+    <a href="https://www.linkedin.com/pub/yousuf-zaman/b5/267/a02"><img src="../imgs/linkedin-logo.png", width="75px"></a>
+  </div>
+  
+</body>
+</html>
